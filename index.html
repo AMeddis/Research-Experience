@@ -1,110 +1,85 @@
-
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Alessandra Meddis</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name</title>
   <style>
     body {
       font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 60px 20px 30px;
+    }
+
+    .intro-box {
+      background: white;
+      border-radius: 10px;
+      padding: 30px;
+      max-width: 600px;
       text-align: center;
-      padding: 50px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin-bottom: 40px;
     }
-    img {
-      width: 150px;
-      border-radius: 50%;
+
+    h1 {
+      margin-top: 0;
+      font-size: 2em;
+      color: #228B22; /* Forest Green */
     }
-    a {
-      display: block;
-      margin: 10px;
-      color: #007acc;
+
+    .links {
+      text-align: left;
+      max-width: 600px;
+      width: 100%;
+    }
+
+    .links ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .links li {
+      margin: 10px 0;
+    }
+
+    .links a {
       text-decoration: none;
+      color: #0066cc;
+      font-weight: bold;
     }
 
-    .center-box {
-    width: 50%;
-    max-width: 600px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-    
-  h1 {
-    color: green;
-  }
-      h2 {
-    color: green;
-  }
-
-   .link-section {
-    text-align: left;
-    margin-left: 10px; /* optional, to give some padding from the edge */
-  }
-
-  .link-section ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  .link-section li {
-    margin: 10px 0;
-  }
-
-  .link-section a {
-    text-decoration: none;
-    color: blue;
-  }
-  ul.links {
-    list-style: none;
-    padding: 0;
-  }
-
-  ul.links li {
-    margin: 10px 0;
-  }
-
-  ul.links li a {
-    text-decoration: none;
-    color: Blue; /* Optional: customize link color */
-  }
+    .links a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <img src="PSplot_paper.png" alt="Your Photo">
-  <div class="center-box">
-  <h1> Alessandra Meddis</h1>
-  <p> I am currently an Assistant Professor of Biostatistic in the Univeristy of Copenhagen, Denmark.
-  I work at the Section of Biostatistics, Department of Public Health, where I arrived for my postdoc. 
 
-I started my career as a researcher at the Institute Curie, Paris, France during a 6 months exchange for the Master thesis,
+  <div class="container">
+    <div class="intro-box">
+      <h1>Alessandra Meddis </h1>
+      <p>Researcher in Biostatistics — currently at University of Copenhagen, Denmark</p>
+    </div>
 
-and I successively started my PhD on survival analysis with a focus on clustered data, such as meta-analysis and multicentric 
+    <div class="links">
+      <ul>
+        <li><a href="cv.pdf" target="_blank">📄 CV</a></li>
+        <li><a href="https://www.linkedin.com/in/alessandra-meddis" target="_blank">🔗 LinkedIn</a></li>
+        <li><a href="https://github.com/ameddis" target="_blank">💻 GitHub</a></li>
+        <li><a href="alme@sund.ku.dk">✉️ Email</a></li>
+      </ul>
+    </div>
+  </div>
 
-data in the field of breast cancer. As for now, my research primarly includes applied and theoretical methodology for longitudinal 
-
-and time-to-event data, causal inference and targeted learning in observational studies. 
-
-Moreover, my recent work also focuses on quantile estimaton for time-to-event data in meta-analysis and pseudo-values observations. 
-
-Many projects are based on the danish registry data or randomized clinical trials. 
-
-I collaborate with medical doctors and epidemiologist for a wide range of projects and I provide statistical support 
-
-for a group of PhD and master medical students in the Infectious disease department in Hvidovre Hospital, Denmark.</p>
- </div>
-  
-<div class="link-section">
-  <h2>Links</h2>
-<ul class="links">
-  <li><a href="CV.pdf" target="_blank">📄 My CV</a></li>
-  <li><a href="https://www.linkedin.com/in/alessandra-meddis" target="_blank">🔗 LinkedIn Profile</a></li>
-  <li><a href="https://github.com/ameddis" target="_blank">💻 GitHub Profile</a></li>
-</ul>
-</div>
-  
 </body>
 </html>
 
