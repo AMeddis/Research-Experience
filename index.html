@@ -27,18 +27,19 @@
       padding-bottom: 30px;
     }
 
-    .header .left {
-      display: flex;
-      align-items: center;
-    }
+  .header .left {
+    display: flex;
+    flex-direction: column;  /* Stack the image and name vertically */
+    align-items: center;     /* Center them horizontally */
+  }
 
-    .header .left img {
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      margin-right: 20px;
-    }
-
+  .header .left img {
+    width: 120px; /* Adjust the size of the image */
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px; /* Space between image and name */
+  }
+    
     .header .left h1 {
       margin: 0;
       font-size: 1.8em;
